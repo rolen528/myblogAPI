@@ -175,7 +175,5 @@ class BlogApiControllerTest {
             assertThat(article.getTitle()).isEqualTo(newTitle);
             assertThat(article.getContent()).isEqualTo(newContent);
         }
-
-
     }
 }
